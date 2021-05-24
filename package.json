@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "ci": "yarn install --frozen-lockfile"
+    "ci-install": "yarn install --frozen-lockfile"
   },
   "author": "George Perry",
   "license": "MIT",
