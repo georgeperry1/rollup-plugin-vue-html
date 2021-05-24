@@ -2,10 +2,12 @@
   "name": "rollup-plugin-vue-html",
   "version": "1.0.0",
   "description": "Rollup plugin for transforming Vue components into HTML and inline CSS",
-  "main": "index.ts",
   "directories": {
     "test": "test"
   },
+  "files": ["dist"],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
