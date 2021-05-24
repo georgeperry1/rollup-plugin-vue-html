@@ -1,6 +1,6 @@
 import typescript from 'rollup-plugin-typescript2';
-import pkg from './package.json';
 import builtins from 'builtin-modules';
+import pkg from './package.json';
 
 const rollupConfig = {
 	input: 'src/index.ts',
