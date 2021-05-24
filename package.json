@@ -1,0 +1,27 @@
+{
+  "name": "rollup-plugin-vue-html",
+  "version": "1.0.0",
+  "description": "Rollup plugin for transforming Vue components into HTML and inline CSS",
+  "main": "index.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "author": "George Perry",
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.0",
+    "cheerio": "^1.0.0-rc.9"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.29",
+    "builtin-modules": "^3.2.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "rollup": "^2.49.0",
+    "rollup-plugin-typescript2": "^0.30.0"
+  }
+}
